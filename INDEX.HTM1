@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر فورتنايت وروبلوكس</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #ffffff;
+            margin: 0;
+            padding: 0;
+            color: #222;
+            direction: rtl;
+        }
+        header {
+            background: #4da3ff;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            color: #fff;
+        }
+        .section {
+            padding: 30px;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            background: #f9f9f9;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background: #4da3ff;
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+        }
+        .btn:hover {
+            background: #1f8bff;
+        }
+    </style>
+</head>
+<body>
+
+<header>متجر فورتنايت وروبلوكس</header>
+
+<div class="section">
+    <div class="title">🎮 منتجات فورتنايت</div>
+    <div class="products">
+        <div class="card">
+            <img src="https://via.placeholder.com/200x150" alt="V-Bucks">
+            <h3>بطاقات V-Bucks</h3>
+            <p>شحن آمن وسريع</p>
+            <a class="btn" href="#">اشترِ الآن</a>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/200x150" alt="Skins">
+            <h3>سكنات فورتنايت</h3>
+            <p>أسعار مميزة</p>
+            <a class="btn" href="#">اشترِ الآن</a>
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <div class="title">🟩 منتجات روبلوكس</div>
+    <div class="products">
+        <div class="card">
+            <img src="https://via.placeholder.com/200x150" alt="Robux">
+            <h3>روبـــوكس</h3>
+            <p>شحن مباشر للحساب</p>
+            <a class="btn" href="#">اشترِ الآن</a>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/200x150" alt="Gamepasses">
+            <h3>Game Passes</h3>
+            <p>افتح مميزات داخل الألعاب</p>
+            <a class="btn" href="#">اشترِ الآن</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+
+
+جاهز معتز! ✔
+هيك صار عندك صفحة ويب كاملة لمتجر فورتنايت وروبلوكس بـ لايت مود وبزر اشترِ الآن وكلهم بنفس الصفحة.
+
+إذا بدك:
+
+أضيف لوجو محترف
+
+أعمل تصميم أحلى
+
+أضيف حركة (Animations)
+
+أعمل صفحة دفع (Checkout)
+
+أضيف صور حقيقية بدل المؤقتة
+
+
+بس احكيلي، وبطوّرلك المتجر زي ما بدك 🔥🚀
