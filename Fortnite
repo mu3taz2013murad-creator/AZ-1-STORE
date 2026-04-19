@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FN Zone</title>
+
+<style>
+body {
+  margin:0;
+  font-family: Arial;
+  background:#0f172a;
+  color:white;
+}
+
+header {
+  background:#020617;
+  padding:15px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.logo {
+  font-size:20px;
+  font-weight:bold;
+}
+
+nav a {
+  color:white;
+  margin:0 10px;
+  text-decoration:none;
+}
+
+.hero {
+  text-align:center;
+  padding:80px;
+  background:linear-gradient(45deg,#3b82f6,#22c55e);
+}
+
+.hero h1 {
+  font-size:45px;
+}
+
+.container {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.card {
+  background:#1e293b;
+  margin:15px;
+  padding:15px;
+  border-radius:10px;
+  width:220px;
+  text-align:center;
+}
+
+.card img {
+  width:100%;
+  border-radius:10px;
+}
+
+button {
+  background:#22c55e;
+  border:none;
+  padding:10px;
+  margin-top:10px;
+  color:white;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+footer {
+  text-align:center;
+  padding:20px;
+  background:#020617;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+  <div class="logo">🔥 FN Zone</div>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#shop">Shop</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Upgrade Your Game</h1>
+  <p>Services & Boosting for Fortnite Players</p>
+  <button onclick="scrollToShop()">Start Now</button>
+</section>
+
+<section id="shop" class="container">
+
+<div class="card">
+  <img src="https://via.placeholder.com/200">
+  <h3>Rank Boost</h3>
+  <p>$15</p>
+  <button onclick="buy('Rank Boost')">Order</button>
+</div>
+
+<div class="card">
+  <img src="https://via.placeholder.com/200">
+  <h3>Coaching 1h</h3>
+  <p>$10</p>
+  <button onclick="buy('Coaching')">Order</button>
+</div>
+
+<div class="card">
+  <img src="https://via.placeholder.com/200">
+  <h3>Custom Map</h3>
+  <p>$25</p>
+  <button onclick="buy('Map')">Order</button>
+</div>
+
+</section>
+
+<footer>
+  © 2026 FN Zone
+</footer>
+
+<script>
+function buy(item){
+  alert("Order received for: " + item);
+}
+
+function scrollToShop(){
+  document.getElementById("shop").scrollIntoView({behavior:"smooth"});
+}
+</script>
+
+</body>
+</html>
